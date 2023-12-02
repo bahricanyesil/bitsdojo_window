@@ -1,8 +1,8 @@
 // Don't forget to make the changes mentioned in
 // https://github.com/bitsdojo/bitsdojo_window#getting-started
 
-import 'package:flutter/material.dart';
 import 'package:bitsdojo_window/bitsdojo_window.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,8 +30,8 @@ class MyApp extends StatelessWidget {
         body: WindowBorder(
           color: borderColor,
           width: 1,
-          child: Row(
-            children: const [LeftSide(), RightSide()],
+          child: const Row(
+            children: [LeftSide(), RightSide()],
           ),
         ),
       ),
